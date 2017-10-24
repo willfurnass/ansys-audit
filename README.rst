@@ -3,8 +3,6 @@ ansys-audit
 
 Quick and dirty tool to generate a report of disk usage for each of the file types listed in ``ansys-audit.csv``, ordered by total usage.
 
-Run using:
+Run using: ::
 
-.. code-block: sh
-
-  python ansys-audit.py path/containing/ansys/projects
+   python ansys-audit.py path/containing/ansys/projects
