@@ -13,10 +13,10 @@ if __name__ == '__main__':
         sys.exit(1)
     rootdir = sys.argv[1]
 
-    # Generate dictionary of ANSYS file extension patterns mapped to 
+    # Generate dictionary of ANSYS file extension patterns mapped to
     # corresponding compiled regexes
     file_type_patterns = {}
-    with open('ansys_audit.csv', 'r') as f:
+    with open('ansys-audit.csv', 'r') as f:
         for line in f:
             ext_pat = line.split('|')[0] \
                           .replace('n', '[0-9]') \
