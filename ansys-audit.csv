@@ -1,0 +1,84 @@
+ANO|TRUE|Text|Graphics annotation commands (/ANNOT)
+BAT|TRUE|Text|Input data copied from batch input file (/BATCH)
+DOn|TRUE|Text|Do-loop commands for nesting level n
+DSPxx|TRUE|Binary|Scratch files for the distributed sparse solver
+EROT|TRUE|Binary|Rotated element matrices
+EVC|TRUE|Binary|Scratch file for PCG Lanczos eigensolver
+EVL|TRUE|Binary|Scratch file for PCG Lanczos eigensolver
+LNxx|TRUE|Binary|Scratch files for the sparse solver (x = 1-42)
+LOCK|TRUE|Binary|Prevents more than one job with the same name from running in the same directory
+LV|TRUE|Binary|Scratch file from substructure generation pass with more than one load vector.
+PAGE|TRUE|Binary|Page file for virtual memory (database space)
+PCn|TRUE|Binary|Scratch files for PCG solver
+PDA|TRUE|Binary|Scratch file for PCG solver
+PMA|TRUE|Binary|Scratch file for PCG solver
+SNODExx|TRUE|Binary|Scratch files for Supernode eigensolver
+SSCR|TRUE|Binary|Scratch file from substructure generation pass
+ANF|FALSE|Text|ANSYS Neutral Format geometry file
+ASI|FALSE|Binary|Results file from a structural analysis on an FSI interface
+BCS|FALSE|Text|Stores performance information when running the sparse solver
+BFIN|FALSE|Text|Interpolated body forces written as BF commands (BFINT)
+CBDO|FALSE|Text|Interpolated DOF data written as D Commands (CBDOF)
+CDB|FALSE|Text|Text database file (CDWRITE)
+CMAP|FALSE|Text|Color map file
+CMD|FALSE|Text|Commands written by *CFWRITE
+CMS|FALSE|Binary|Component Mode Synthesis file
+CND|FALSE|Text|Nonlinear diagnostics file that tracks contact quantities throughout the solution (NLDIAG)
+CNM|FALSE|Text|Contact pair output data (CNTR)
+DB|FALSE|Binary|Database file (SAVE, /EXIT)
+DBB|FALSE|Binary|Copy of database file created when a nonlinear analysis terminates abnormally (used for traditional restart)
+DBE|FALSE|Binary|Database file from VMESH failure in batch mode
+DSP|FALSE|Text|Stores performance information when running the sparse solver in Distributed ANSYS
+DSUB|FALSE|Binary|Superelement DOF solution from use pass
+ELEM|FALSE|Text|Element definitions (EWRITE)
+EMAT|FALSE|Binary|Element matrices
+ERR|FALSE|Text|Error and warning messages
+ESAV|FALSE|Binary|Element saved data ESAV files created by nonlinear analyses may not be upwardly compatible
+FULL|FALSE|Binary|Assembled global stiffness and mass matrices
+GRPH|FALSE|Text|Neutral graphics file
+GST|FALSE|Binary|Graphical solution tracking file
+IGES|FALSE|Text|IGES file from solid model data (IGESOUT)
+LDHI|FALSE|Text|Loading and boundary conditions of load steps (used for multiframe restart)
+LGW|FALSE|Text|Database command log file (LGWRITE)
+Lnn|FALSE|Binary|Load case file (where nn = load case number) (LCWRITE)
+LMODE|FALSE|Binary|Modal analysis frequencies and left mode shapes (MODOPT)
+LN22|FALSE|Binary|Factorized stiffness matrix (also known as the triangularized stiffness matrix)
+LOG|FALSE|Text|Command input history
+MAPPING|FALSE|Text|Mapping data (HBMAT)
+MATRIX|FALSE|Text/Binary|Mapping data in Harwell-Boeing format (HBMAT)
+MCF|FALSE|Text|Modal coordinates from harmonic or transient analysis
+MCOM|FALSE|Text|Mode combination commands from spectrum analysis
+MLV|FALSE|Binary|Modal analysis element load vector data
+Mnnn|FALSE|Binary|Modal displacements, velocities, and accelerations records and solution commands for a single substep of a load step (used for multiframe restart of a mode-superposition transient analysis)
+MNTR|FALSE|Text|Nonlinear analysis convergence monitoring
+MODE|FALSE|Binary|Modal analysis frequencies and mode shapes; buckling analysis load multipliers and mode shapes
+MODESYM|FALSE|Binary|Modal analysis frequencies and mode shapes
+MP|FALSE|Text|Material property definitions (MPWRITE)
+NLH|FALSE|Text|Nonlinear diagnostics file that tracks results or contact quantities throughout the solution (NLHIST)
+NODE|FALSE|Text|Node definitions (NWRITE)
+NR|FALSE|Binary|Stores Newton-Raphson iteration information when the nonlinear diagnostic tool is active (NLDIAG,NRRE,ON)
+OSAV|FALSE|Binary|Copy of ESAV file from last converged substep
+OUT|FALSE|Text|Output file
+PARM|FALSE|Text|Parameter definitions (PARSAV)
+PCS|FALSE|Text|Stores performance information when running the PCG solver
+PRS|FALSE|Binary|Stores response spectrum (SPRS, MPRS, and DDAM) information (mode coefficients, etc.) when remote modal files are used.
+PSD|FALSE|Binary|Stores random vibration (PSD) information (modal covariance matrices, etc.)
+PVTS|FALSE|Text|Stores pivot information when running the sparse solver
+RCN|FALSE|Binary|Results file for the initial contact state
+RDB|FALSE|Binary|Database at the start of the first substep of the first load step (used for multiframe restart)
+RDnn|FALSE|Binary|Database from structural analyses after nn times of rezoning
+RDSP|FALSE|Binary|Reduced displacements
+RFRQ|FALSE|Binary|Reduced complex displacements
+RMG|FALSE|Binary|Results file from a magnetic field analysis
+Rnnn|FALSE|Binary|Element saved records, solution commands, and status for a single substep of a load step (used for multiframe restart of static and full transient analyses)
+RSnn|FALSE|Binary|Results file from structural analyses after nn times of rezoning
+RST|FALSE|Binary|Results file from structural and coupled-field analyses
+RSTP|FALSE|Binary|Results file from a linear perturbation analysis
+RTH|FALSE|Binary|Results file from a thermal analysis
+SELD|FALSE|Binary|Superelement load vector data from generation pass
+Snn|FALSE|Text|Load step files (where nn = load step number) (LSWRITE)
+SORD|FALSE|Text|Superelement name and number from use pass
+STAT|FALSE|Text|Status of a batch run
+SUB|FALSE|Binary|Superelement matrix file from generation pass
+TB|FALSE|Text|Hyperelastic material constants
+USUB|FALSE|Binary|Renamed DSUB File for input to substructure expansion pass
